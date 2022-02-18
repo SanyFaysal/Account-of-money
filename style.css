@@ -1,0 +1,45 @@
+/* head name style  */
+.head-name{
+    font-size: 45px;;
+}
+/* money image  */
+.money-img{
+    height: 130vh;
+    width: 100%;
+    
+}
+/* title of all input  */
+.inputTitle{
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    font-size: large;
+
+    
+}
+ /*all input box style  */
+.input{
+    border: none;
+    /* width: 35%; */
+   padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(223, 222, 222);
+}
+/* all button style  */
+.button{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.save-money-btn{
+    width: 25%;
+    
+}
+/* mobile responsive money image  */
+@media screen and (max-width: 767px) {
+    .money-img{
+        height: 40vh
+        
+    }
+}
